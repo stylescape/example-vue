@@ -1,33 +1,32 @@
 {
-  "name": "vue",
-  "description": "Include Stylescape's source Sass and individual JavaScript plugins with Vue and Vite.",
-  "version": "0.0.0",
-  "private": true,
-  "repository": "stylescape/examples",
-  "license": "MIT",
-  "stackblitz": {
-    "startCommand": "npm start"
-  },
-  "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 4173",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --ignore-path .gitignore",
-    "fix": "npm run lint -- --fix",
-    "test": "npm run build && npm run lint"
-  },
-  "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
-    "vue": "^3.4.21"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
-    "eslint": "^9.9.0",
-    "eslint-plugin-vue": "^9.26.0",
-    "sass": "^1.77.6",
-    "sass-loader": "^16.0.0",
-    "vite": "^5.2.7",
-    "vue-loader": "^17.4.2"
-  }
+    "name": "stylescape_vue",
+    "description": "Include Stylescape's source Sass and individual JavaScript plugins with Vue and Vite.",
+    "version": "0.0.1",
+    "private": true,
+    "repository": "https://github.com/stylescape/example-vue",
+    "license": "MIT",
+    "stackblitz": {
+        "startCommand": "npm start"
+    },
+    "scripts": {
+        "start": "vite",
+        "build": "vite build",
+        "preview": "vite preview --port 4173",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --ignore-path .gitignore",
+        "fix": "npm run lint -- --fix",
+        "test": "npm run build && npm run lint"
+    },
+    "dependencies": {
+        "stylescape": "^0.0.22",
+        "vue": "^3.4.21"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.0.5",
+        "eslint": "^9.9.0",
+        "eslint-plugin-vue": "^9.26.0",
+        "sass": "^1.77.6",
+        "sass-loader": "^16.0.0",
+        "vite": "^5.2.7",
+        "vue-loader": "^17.4.2"
+    }
 }
