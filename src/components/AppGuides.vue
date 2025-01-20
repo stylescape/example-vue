@@ -7,7 +7,7 @@ export default {
     data() {
         return {
             resources: [
-                { 
+                {
                     url: "https://scape.style",
                     title: "Stylescape"
                 },
@@ -23,10 +23,6 @@ export default {
     <p>Read more detailed instructions and documentation on using or contributing to Stylescape.</p>
 
     <ul class="">
-        <GuideItem
-        v-for="item in resources"
-        :href="item.url"
-        :text="item.title"
-        />
+        <GuideItem v-for="item in resources" :href="item.url" :text="item.title" />
     </ul>
 </template>
