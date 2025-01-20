@@ -1,8 +1,6 @@
 <template>
     <header class="">
-        <h1 class="">
-
-        </h1>
+        <h1 class="">Stylescape</h1>
         <a href="https://github.com/stylescape/example-vue/" target="_blank" rel="noopener">View on GitHub</a>
     </header>
 </template>
