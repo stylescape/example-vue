@@ -6,8 +6,6 @@ import "../scss/styles.scss"
 
 // Import only the Stylescape components we need
 
-
-
 createApp(App).mount("#app")
 
 // Create an example popover
