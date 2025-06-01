@@ -18,7 +18,7 @@
     },
     "dependencies": {
         "stylescape": "^0.1.21",
-        "vue": "^3.5.14"
+        "vue": "^3.5.16"
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^5.2.4",
