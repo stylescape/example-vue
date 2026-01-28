@@ -17,6 +17,8 @@
         "build": "vite build",
         "preview": "vite preview --port 4173",
         "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --ignore-path .gitignore",
+        "lint:css": "stylelint \"src/**/*.{css,scss}\"",
+        "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx,css,scss,html,json}\"",
         "fix": "npm run lint -- --fix",
         "test": "npm run build && npm run lint"
     },
@@ -28,7 +30,10 @@
         "@vitejs/plugin-vue": "^6.0.3",
         "eslint": "^9.39.2",
         "eslint-plugin-vue": "^10.7.0",
+        "prettier": "^3.5.3",
         "sass": "^1.97.3",
+        "stylelint": "^16.19.1",
+        "stylelint-config-standard-scss": "^15.0.1",
         "vite": "^7.3.1"
     }
 }
