@@ -1,43 +1,47 @@
-<div align="right">
+# Stylescape Vue Example
 
-[![GitHub License](https://img.shields.io/github/license/stylescape/example-vue?style=flat-square&logo=readthedocs&logoColor=FFFFFF&label=&labelColor=%23041B26&color=%23041B26&link=LICENSE)](https://github.com/stylescape/example-vue/blob/main/LICENSE)
-[![devContainer](https://img.shields.io/badge/devContainer-23041B26?style=flat-square&logo=Docker&logoColor=%23FFFFFF&labelColor=%23041B26&color=%23041B26)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/stylescape/example-vue)
-[![StackBlitz](https://img.shields.io/badge/StackBlitz-23041B26?style=flat-square&logo=StackBlitz&logoColor=%23FFFFFF&labelColor=%23041B26&color=%23041B26)](https://stackblitz.com/github/stylescape/example-vue/tree/main?file=src%2Findex.html)
+Stylescape example using [Vue](https://vuejs.org/) and [Vite](https://vitejs.dev/).
 
-</div>
+## About Stylescape
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/stylescape/brand/master/src/logo/logo-transparant.png" width="20%" alt="Stylescape Logo">
-</p>
-<h1 align="center" style='border-bottom: none;'>Stylescape + Vue</h1>
-<h3 align="center">Example Project</h3>
+Stylescape is a visual identity framework by [Scape Agency](https://www.scape.agency) providing a complete design system with components, layouts, and utilities.
 
----
+## Features Demonstrated
 
-Include [Stylescape](https://scape.style)'s source Sass and individual JavaScript plugins with [Vue](https://vuejs.org) and [Vite](https://vitejs.dev/).
+- Frame layout with `frame_main`
+- Top/bottom ribbons
+- Collapsible sidebars (`data-ss="aside"`)
+- Accordion component (`data-ss="accordion"`)
+- Theme toggle (`data-ss="theme-toggle"`)
 
----
+## Installation
 
-## Quickstart
-
-```sh
-git clone https://github.com/stylescape/example-vue.git
+```bash
 npm install
-npm start
 ```
 
----
+## Usage
 
-## Colophon
+```bash
+npm run dev   # Start development server
+npm run build # Build for production
+```
 
-Made with ❤️ by **[Scape Agency](https://www.scape.agency)**
+## Project Structure
 
-### Contributing
+```
+src/
+├── App.vue
+├── main.js
+└── scss/
+    └── styles.scss
+```
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+## Learn More
 
-### License
+- [Stylescape Documentation](https://github.com/stylescape/stylescape)
+- [Vue Documentation](https://vuejs.org/guide/introduction.html)
 
-This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
+## License
 
----
+MIT
