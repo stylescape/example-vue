@@ -5,6 +5,9 @@
     "private": true,
     "repository": "https://github.com/stylescape/example-vue",
     "license": "MIT",
+    "engines": {
+        "node": ">=22.0.0"
+    },
     "stackblitz": {
         "startCommand": "npm start"
     },
