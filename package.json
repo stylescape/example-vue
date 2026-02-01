@@ -23,7 +23,7 @@
         "test": "npm run build && npm run lint"
     },
     "dependencies": {
-        "stylescape": "^0.3.9",
+        "stylescape": "^0.3.10",
         "vue": "^3.5.27"
     },
     "devDependencies": {
